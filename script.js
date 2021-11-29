@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Desenvolvedor", "Engenheiro de Software", "Cientista da Computação", "Freelancer", "Jogador de FreeFire", ],
+        strings: ["Desenvolvedor", "Engenheiro de Software", "Cientista da Computação", "Freelancer", ],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -43,7 +43,7 @@ $(document).ready(function(){
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
-        loop: true,
+        
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
