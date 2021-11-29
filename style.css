@@ -520,8 +520,8 @@ section .title::after{
     content: "meus trabalhos";
 }
 
-
 .teams .carousel .card{
+    
     background: #222;
     border-radius: 6px;
     padding: 5.9vh 2.2vh;
