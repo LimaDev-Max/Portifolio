@@ -126,7 +126,7 @@ section .title::after{
 
 .navbar .logo a span{
     color: rgb(20, 238, 238);
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .navbar.sticky .logo a span{
