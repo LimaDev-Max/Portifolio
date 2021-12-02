@@ -95,6 +95,7 @@ section .title::after{
 
 .logo img {
     margin-bottom: -15px;
+    border-radius: 45px;
 }
 
 .navbar{
@@ -135,7 +136,7 @@ section .title::after{
 .navbar.sticky .logo a span::after {
     color: #00FFFF;
     content: " Fábio Lima";
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .navbar .menu li{
@@ -201,7 +202,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/perfil.svg") no-repeat center;
+    background-color: black;
     height: 100vh;
     color: #fff;
     min-height: 500px;
