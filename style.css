@@ -95,7 +95,6 @@ section .title::after{
 
 .logo img {
     margin-bottom: -15px;
-    border-radius: 30px;
 }
 
 .navbar{
@@ -126,7 +125,7 @@ section .title::after{
 
 .navbar .logo a span{
     color: rgb(20, 238, 238);
-    transition: all 0.1s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar.sticky .logo a span{
@@ -135,8 +134,8 @@ section .title::after{
 
 .navbar.sticky .logo a span::after {
     color: #00FFFF;
-    content: "Fábio Lima";
-    font-size: 1em;
+    content: " Fábio Lima";
+    font-size: 0.8em;
 }
 
 .navbar .menu li{
@@ -202,7 +201,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: black no-repeat center;
+    background: url("images/perfil.svg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -521,7 +520,6 @@ section .title::after{
 }
 
 .teams .carousel .card{
-    
     background: #222;
     border-radius: 6px;
     padding: 5.9vh 2.2vh;
@@ -540,7 +538,6 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-    
 }
 
 .teams .carousel .card:hover .box{
