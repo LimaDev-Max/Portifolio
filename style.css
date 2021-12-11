@@ -379,7 +379,7 @@ section .title::after{
     
 }
 .skills .skills-content .column{
-    width: calc(50% - 30px);
+    width: calc(50% - 80px);
     
 }
 
