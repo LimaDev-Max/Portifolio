@@ -37,7 +37,7 @@ section{
 
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 30px;
     margin: auto;
 }
 
@@ -85,6 +85,8 @@ section .title::after{
     padding: 0 5px;
     background: rgb(26, 25, 25);
     transform: translateX(-50%);
+    max-width: 500px;
+    
 }
 
 /* navbar styling */
@@ -372,10 +374,12 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "Tecnologias que utilizo";
+    content: "Tecnologias";
+    
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
+    
 }
 
 .skills .skills-content .left .text{
@@ -594,7 +598,7 @@ section .title::after{
     content: "me encontre";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: calc(50% -30px);
 }
 
 .contact .contact-content .text{
@@ -605,6 +609,7 @@ section .title::after{
 
 .contact .contact-content .left p{
     text-align: justify;
+    
 }
 
 .contact .contact-content .left .icons{
@@ -789,17 +794,6 @@ h3 {
 }
 
 .fa-github:hover {
-    text-decoration: none;
-    color: #00FFFF;
-    transition: all 0.3s ease;
-}
-
-.fa-twitter {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-.fa-twitter:hover {
     text-decoration: none;
     color: #00FFFF;
     transition: all 0.3s ease;
