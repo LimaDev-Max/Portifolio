@@ -269,11 +269,13 @@ section .title::after{
     width: 45%;
 }
 
+
 .about .about-content .left img{
     height: 350px;
     width: 350px;
     object-fit: cover;
     border-radius: 6px;
+    
 }
 
 .about .about-content .right{
@@ -824,6 +826,6 @@ h3 {
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 200px;
-        width: 200px;
+        width: 170px;
     }
 }
