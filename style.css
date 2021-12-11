@@ -49,7 +49,7 @@ section{
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -379,7 +379,7 @@ section .title::after{
     
 }
 .skills .skills-content .column{
-    width: calc(50% - 80px);
+    width: calc(50% - 30px);
     
 }
 
