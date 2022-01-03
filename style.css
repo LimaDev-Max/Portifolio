@@ -19,6 +19,7 @@ html{
 
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
+   
 }
 
 ::-webkit-scrollbar-thumb {
@@ -36,7 +37,8 @@ section{
 }
 
 .max-width{
-    max-width: 1300px;
+    min-width: 320px;
+   padding: 0 80px;
     margin: auto;
 }
 
@@ -49,7 +51,7 @@ section{
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
