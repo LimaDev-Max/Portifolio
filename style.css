@@ -51,8 +51,9 @@ section{
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
+
     justify-content: space-between;
 }
 
@@ -205,7 +206,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background-color: black;
+    background: url(imagens/perfil.svg) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -442,34 +443,23 @@ section .title::after{
     background: rgb(1, 48, 202);
 }
 .skills-content .right .html::before{
-    width: 70%;
+    width: 80%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 75%;
 }
-.skills-content .right .legaltechs::before{
-    width: 90%;
-}
-.skills-content .right .git::before{
-    width: 50%;
-}
+
+
 .skills-content .right .github::before{
-    width: 60%;
+    width: 70%;
 }
-.skills-content .right .linux::before{
+
+.skills-content .right .python::before{
     width: 50%;
 }
-.skills-content .right .python::before{
-    width: 40%;
-}
-.skills-content .right .data-science::before{
-    width: 30%;
-}
-.skills-content .right .mysql::before{
-    width: 20%;
-}
+
 .skills-content .right .js::before{
-    width: 30%;
+    width: 68%;
 }
 
 .tecnologias .content{
