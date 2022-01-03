@@ -206,7 +206,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url(imagens/perfil.svg) no-repeat center;
+    background-color: black;
     height: 100vh;
     color: #fff;
     min-height: 500px;
