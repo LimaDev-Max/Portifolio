@@ -37,8 +37,8 @@ section{
 }
 
 .max-width{
-    min-width: 320px;
-   padding: 0 80px;
+    max-width: 1300px;
+    padding: 0 80px;
     margin: auto;
 }
 
