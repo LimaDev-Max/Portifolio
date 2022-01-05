@@ -101,7 +101,7 @@ section .title::after{
 
 .logo img {
     margin-bottom: -15px;
-    border-radius: 45px;
+    border-radius: 10px;
 }
 
 .navbar{
