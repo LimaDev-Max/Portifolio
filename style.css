@@ -114,7 +114,6 @@ section .title::after{
 }
 
 .navbar.sticky{
-    padding: 25px 5px;
     background: rgba(0, 0, 0, 0.5);
 }
 
