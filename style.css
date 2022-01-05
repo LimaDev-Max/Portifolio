@@ -38,7 +38,7 @@ section{
 
 .max-width{
     
-    padding: 0 1px;
+    padding: 0 3px;
     margin: auto;
 }
 
@@ -114,7 +114,7 @@ section .title::after{
 }
 
 .navbar.sticky{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .navbar .max-width{
@@ -209,7 +209,7 @@ section .title::after{
     
     display: flex;
     background-color: black;
-   
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -290,9 +290,7 @@ section .title::after{
     color: rgb(1, 196, 202);
 }
 
-.about .about-content .right p{
-    text-align: justify;
-}
+
 
 .about .about-content .right a{
     display: inline-block;
