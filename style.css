@@ -114,7 +114,7 @@ section .title::after{
 }
 
 .navbar.sticky{
-    background-color: black;
+    background-color: #111;
 }
 
 .navbar .max-width{
@@ -209,7 +209,7 @@ section .title::after{
 .home{
     
     display: flex;
-   background-color: black;
+   background-color: #111;
     height: 100vh;
     color: #fff;
     min-height: 500px;
