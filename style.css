@@ -37,10 +37,12 @@ section{
 }
 
 .max-width{
-    max-width: 1300px;
-    padding: 0 80px;
+    
+    padding: 0 1px;
     margin: auto;
 }
+
+    
 
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
@@ -53,8 +55,8 @@ section{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
 }
 
 section .title{
@@ -62,7 +64,7 @@ section .title{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -139,8 +141,8 @@ section .title::after{
 
 .navbar.sticky .logo a span::after {
     color: #00FFFF;
-    content: " Fábio Lima";
-    font-size: 0.9em;
+    content: " Fábio"; 
+    font-size: 0.8em;
 }
 
 .navbar .menu li{
@@ -205,9 +207,10 @@ section .title::after{
 
 /* home section styling */
 .home{
+    
     display: flex;
     background-color: black;
-    height: 100vh;
+   
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -216,7 +219,7 @@ section .title::after{
 }
 
 .home .max-width{
-    width: 100%;
+    width: 90%;
     display: flex;
 }
   
@@ -264,12 +267,9 @@ section .title::after{
 
 /* about section styling */
 
-.about .title::after{
-    content: "quem sou eu";
-}
 
 .about .about-content .left{
-    width: 45%;
+   
 }
 
 
@@ -329,11 +329,7 @@ section .title::after{
     background: #fff;
 }
 
-.services .title::after,
-.teams .title::after{
-    background: #111;
-    content: "eu posso ajudar";
-}
+
 
 .services .serv-content .card{
     margin: 11px;
@@ -377,10 +373,7 @@ section .title::after{
 }
 /* skills section styling */
 
-.skills .title::after{
-    content: "Tecnologias";
-    
-}
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
     
@@ -513,9 +506,6 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.teams .title::after{
-    content: "meus trabalhos";
-}
 
 .teams .carousel .card{
     background: #222;
@@ -587,9 +577,7 @@ section .title::after{
 }
 /* contact section styling */
 
-.contact .title::after{
-    content: "me encontre";
-}
+
 .contact .contact-content .column{
     width: calc(50% -30px);
 }
@@ -597,6 +585,7 @@ section .title::after{
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
+    
     margin-bottom: 10px;
 }
 
